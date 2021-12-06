@@ -51,12 +51,12 @@
                     <!-- Sidebar Menu -->
                     <nav class="mt-2">
                         <ul class="nav nav-pills nav-sidebar flex-column nav-legacy" data-widget="treeview" role="menu" data-accordion="false">
-                            @if (auth()->user()->role == "admin")
+                            {{-- @if (auth()->user()->role == "admin") --}}
                             <x-jet-nav-link href="{{ route('data-anak-asuh') }}" :active="request()->routeIs('data-anak-asuh')">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>{{ __('Data Anak Asuh') }}</p>
                             </x-jet-nav-link>
-                            @endif
+                            {{-- @endif --}}
                         </ul>
                     </nav>
                     <!-- /.sidebar-menu -->

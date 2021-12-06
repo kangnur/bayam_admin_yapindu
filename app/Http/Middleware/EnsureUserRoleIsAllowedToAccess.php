@@ -38,7 +38,8 @@ class EnsureUserRoleIsAllowedToAccess
     {
         return [
             'user' => [
-                'dashboard'
+                'dashboard',
+                'data-anak-asuh'
             ],
             'admin' => [
                 'dashboard',
